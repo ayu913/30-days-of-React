@@ -1,18 +1,18 @@
 import React from "react";
-import web from "../src/Images/home.svg";
-import { NavLink } from "react-router-dom";
+import about from "../src/Images/about.svg";
+//import { NavLink } from "react-router-dom";
 import Common from "./Common";
 
 const About = () => {
-    return (
-        <>
-           <Common name="Welcome to About Page"
-             imgsrc={web}
-             visit="/contact"
-             btname="Contact Now"
-           />
-        </>
-    );
+  return (
+    <>
+      <Common name="Welcome to About Page"
+        imgsrc={about}
+        visit="/contact"
+        btname="Contact Now"
+      />
+    </>
+  );
 };
 
 

@@ -7,6 +7,7 @@ import About from "./About";
 import Service from "./Service";
 import Contact from "./Contact";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const App = () => {
     return (
@@ -20,7 +21,7 @@ const App = () => {
                 <Redirect to="/" />
 
             </Switch>
-
+            <Footer />
         </>
     );
 };
