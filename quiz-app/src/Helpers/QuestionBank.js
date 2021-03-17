@@ -1,0 +1,42 @@
+export const Questions = [
+    {
+      prompt: "What is my name?",
+      optionA: "Vibhor",
+      optionB: "Hardik",
+      optionC: "Deep",
+      optionD: "Ayush",
+      answer: "optionD",
+    },
+    {
+      prompt: "Which of this is not a programming language?",
+      optionA: "Python",
+      optionB: "JavaScript",
+      optionC: "MC-03",
+      optionD: "Java",
+      answer: "optionC",
+    },
+    {
+      prompt: "Which of this is not a javascript framework?",
+      optionA: "React",
+      optionB: "Angular",
+      optionC: "Vue",
+      optionD: "Java",
+      answer: "optionD",
+    },
+    {
+        prompt: "Everything in React is a ",
+        optionA: "Module",
+        optionB: "Component",
+        optionC: "Package",
+        optionD: "Class",
+        answer: "optionB",
+      },
+      {
+        prompt: "Who Develop React.js? ",
+        optionA: "Apple",
+        optionB: "Google",
+        optionC: "Facebook",
+        optionD: "Twitter",
+        answer: "optionC",
+      },
+  ];
